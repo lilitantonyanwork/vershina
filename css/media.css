@@ -1,0 +1,1301 @@
+@media screen and (min-width: 2000px) {
+
+
+    header .menu .menu__link{
+        font-size: 2rem;
+    }
+    .banner p{
+        margin-bottom: 80px;
+        max-width: 60%;
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1921px) {
+    .plans__right p, .about p {
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+    }
+    .apartments__banner img{
+        max-height: 650px;
+    }
+    .section__title{
+        font-size: 3rem;
+        line-height: 3.375rem;
+    }
+    .menu__link{
+        font-size: 1.5rem;
+    }
+    .landing .menu {
+        gap: 20px;
+    }
+    .apartments__banner img {
+        max-height: 1000px;
+        width: 100%;
+    }
+    .life img, .gallery-item img{
+        max-height: 1000px;
+    }
+
+}
+
+@media screen and (min-width: 1800px){
+
+}
+@media screen and (min-width: 1600px){
+
+    .banner{
+        height: 900px;
+    }
+    .apartments__banner img {
+        max-height: 800px;
+        width: 100%;
+
+    }
+    .menu{
+        gap: 30px;
+    }
+    .banner h1{
+        margin-top: 80px;
+    }
+    .banner p{
+        margin-bottom: 80px;
+        font-size: 1.5rem;
+    }
+    footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1441px){
+    footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav__contact{
+        margin-left: auto;
+    }
+     header{
+        max-width: calc(100% - 40px);
+        margin-top: 20px;
+    }
+    .about__top, .about__bottom, .choose__apartments, .plans, .info, .gallery,
+    .life,.map,.footer__bottom {
+        max-width: calc(100% - 40px);
+    }
+    #mymap{
+        max-width: 100%;
+    }
+    .about__bottom img{
+        width: 100%;
+    }
+    .choose__right{
+        max-width: calc(100%/2 - 32px);
+    }
+    .plans{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .info__left, .info__right{
+        max-width: calc(100%/2 - 40px) !important;
+    }
+    .info__right{
+        text-align: center;
+    }
+    .project-left{
+        max-width: 50%
+    }
+    .project-right{
+        max-width: 48%;
+
+    }
+}
+@media  screen  and (max-width: 1440px){
+    .project-left{
+        max-width: 50%
+    }
+    .project-right{
+        max-width: 47%;
+
+    }
+    footer{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .terms__item{
+        width: 875px;
+    }
+    nav{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .choose__block, .about, .plans, .info,  .gallery, .life, .plans-overlay {
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    header,  .choose__apartments, .info, .map{
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+    .map{
+        border-radius: 18px;
+    }
+    .nav__contact{
+        margin-left: auto;
+    }
+    .social{
+        margin-left: 20px;
+    }
+    .info__left:after{
+        background-size: 60%;
+        background-repeat: no-repeat;
+        bottom: -50px;
+    }
+    .info__left:before{
+        background-size: 60%;
+        background-repeat: no-repeat;
+        top: -20px;
+    }
+
+    .palns__room-list{
+        left: 20px;
+    }
+
+}
+@media screen and (max-width: 1300px) {
+
+    nav .btn-yellow{
+
+        width: 276px;
+    }
+    .choose__right{
+        width: calc(100%/2 - 32px);
+    }
+    nav h1{
+        font-size: 37px;
+        line-height: 45px;
+        max-width: 541px;
+        padding-left: 0;
+    }
+
+    .footer__midd{
+        padding-right: 32px;
+    }
+    footer {
+        padding-left: 54px;
+        padding-right: 58px;
+    }
+
+    .footer__left p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .features__right{
+        max-width: 100%;
+    }
+    .features__content{
+        width: 100%;
+    }
+    .line{
+        max-width: 692px;
+    }
+}
+@media  screen  and (max-width: 1024px){
+    .mobile__menu--open{
+        display: block;
+    }
+    .menu__block{
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+    }
+    .social{
+        display: none;
+    }
+
+    .footer__menu{
+        flex-wrap: wrap;
+    }
+    .plans__slider{
+        max-width: 500px;
+        width: 100%;
+    }
+    .plans__right{
+        width: 40%;
+
+    }
+    .plans__right p, .plans__right ul{
+        font-size: 18px;
+    }
+    .features__list{
+        justify-content: center;
+    }
+    .features__item{
+        width: 20%;
+    }
+    nav.opened{
+        background: #242424;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        box-sizing: border-box;
+        z-index: 9;
+        border-bottom: 0;
+    }
+    nav.opened .nav__logo{
+        width: 100%
+    }
+    nav.opened .nav__menu{
+        display: flex;
+        width: 100%;
+    }
+    nav.opened .nav__menu .menu{
+        flex-direction: column;
+
+        width: 100%;
+
+        background: #242424;
+
+    }
+    nav.opened .nav__tel{
+        display: none;
+    }
+    nav.opened .mobile__menu--close{
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    .nav.opened .nav__contact{
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    nav.opened .social{
+        display: flex;
+
+        width: 100%;
+
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        background: #242424;
+    }
+    nav.opened .social__icon{
+        width: auto;
+        height: auto;
+    }
+    nav.opened .btn-yellow{
+
+        display: flex;
+
+    }
+    .info__left:after, .info__left:before{
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+    .info__left p   {
+        padding-top: 30px;
+    }
+    .footer__top{
+        flex-wrap: wrap;
+    }
+    .footer__left{
+        max-width: 100%;
+    }
+    .footer__midd{
+        max-width: 100%;
+    }
+    header{
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    nav{
+        border-bottom: 0;
+    }
+    .ClickButtonsBig{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .about__content{
+        position: relative;
+    }
+    .about__invest{
+        max-width: 266px;
+        position: absolute;
+        right: 64px;
+        height: 82px;
+        top: 15px;
+    }
+    .about__invest img{
+        width: 189px;
+    }
+.about__text div:first-child{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about__text{
+    flex-direction: column-reverse;
+}
+    .gallery .gallery-item img{
+        height: 489px;
+    }
+
+    .footer__midd{
+        order: 1;
+        border: none;
+        padding-left: 0;
+        padding-bottom: 40px;
+        border-bottom: 1.29px solid #ffffff38;
+        width: 100%;
+    }
+    .footer__left{
+        order: 2;
+        border: 0;
+        margin-bottom: 20px;
+    }
+    .footer__right{
+        order: 3;
+        padding-left: 0;
+        padding-top: 21px;
+        border-top: 1.29px solid #ffffff38;
+        width: 100%;
+        border-bottom: 1.29px solid #ffffff38;
+        padding-bottom: 7px;
+
+    }
+    .footer__menu{
+        padding-top: 0;
+    }
+    footer{
+        padding-left: 34px;
+    }
+    .footer__left p{
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+    .footer__left p:last-child{
+        margin-top: 0;
+    }
+    .banner .btn-choose{
+        bottom: 10px;
+    }
+    .project{
+        margin-top: 45px;
+    }
+    .features{
+        margin-top: 60px;
+    }
+    .term-info{
+        height: auto;
+        min-height: unset;
+    }
+    .gallery .line{
+        max-width: 100%;
+    }
+    .gallery__tabs{
+        flex-wrap: nowrap;
+    }
+    .tab__item{
+        white-space: nowrap;
+    }
+}
+@media  screen  and (max-width: 900px){
+    .gallery__tabs{
+        width: 100%;
+        overflow: auto;
+    }
+    .banner h1{
+        font-size: 28px;
+        line-height: 57px;
+    }
+    .section__title{
+        font-size: 28px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    .features__item h4{
+        font-size: 18px;
+    }
+    .floor{
+        width: 50px;
+    }
+    .area__actions{
+        flex-direction: column;
+    }
+    .plans__left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .plans__right{
+        width: 100%;
+        padding-top: 32px;
+    }
+    .info__left{
+        width: 100%;
+    }
+    .info__left p{
+        font-size: 18px;
+    }
+    .info__right{
+        margin: 0 auto;
+    }
+
+    .footer__right{
+        margin-bottom: 32px;
+    }
+
+    .footer__bottom--right{
+
+        margin: 20px auto 0;
+    }
+    .apartment__btn{
+        font-size: 16px;
+    }
+    .footer__menu{
+        flex-direction: column;
+    }
+    .footer__bottom{
+        position: relative;
+    }
+    .menu__block{
+        flex-direction: column;
+    }
+
+    .nav__contact{
+        width: 100%;
+      justify-content: flex-end;
+    }
+    nav h1{
+        padding-top: 96px;
+    }
+    .banner .btn-choose{
+        width: 50px;
+        height: 50px;
+        font-size: 3px;
+        line-height: 4px;
+        padding: 0;
+    }
+    .banner .btn-choose img{
+        width: 12px;
+    }
+    .banner h2{
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .banner .logo img{
+        width: 62px;
+    }
+    .banner .logo{
+        max-width: 238px    ;
+        gap: 5px;
+    }
+    header{
+        height: 612px;
+    }
+    nav h1{
+        max-width: 283px;
+        font-size: 20px;
+        line-height: 24px;
+        width: 100%;
+    }
+    nav{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .menu__left{
+        padding-left: 29px;
+    }
+    .menu__link{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    header .menu__item{
+        margin-bottom: 0;
+    }
+    .menu__right{
+        width: 144px;
+        align-items: flex-end;
+    }
+    .header__social{
+        margin-top: 24px;
+    }
+
+    nav .btn-yellow{
+        width: 172px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media  screen  and (max-width: 768px){
+    .choose__left{
+        width: 100%;
+    }
+    .choose__right{
+        width: 100%;
+    }
+    .features__item {
+        width: 40%;
+    }
+    iframe{
+        height: 300px;
+    }
+    header{
+        margin-top: 0;
+    }
+    .landing .nav__tel{
+        display: none;
+    }
+    .landing .banner h1{
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .landing header{
+        margin-top: 39px;
+        max-width: 716px;
+        border-radius: 18px;
+
+    }
+    .landing .banner{
+        padding-left: 24px;
+        padding-bottom: 315px;
+    }
+    .landing .about__top{
+        max-width: 716px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+    .landing .section__title{
+        font-size: 45px;
+    }
+    .landing .about p{
+        font-size: 19px;
+    }
+    .landing .about p:nth-child(3){
+        font-size: 20px;
+    }
+    .landing .about p:last-child{
+        font-size: 15px;
+    }
+    .landing .about__bottom{
+        max-width: 716px;
+        overflow: hidden;
+        border-radius: 18px;
+
+    }
+    .landing .about__bottom img {
+        object-fit: cover;
+        height: 638px;
+
+    }
+    .landing .features{
+        padding-top: 80px;
+    }
+    .landing .features .section__title{
+        margin-bottom: 0;
+    }
+    .landing .features__item{
+        padding-top: 10px;
+        max-width: 228px;
+    }
+    .landing .choose__apartments > .section__title{
+        display: none;
+    }
+    .landing .choose__apartments{
+        max-width: 716px;
+    }
+    .landing .apartments__banner{
+        margin-bottom: 70px;
+    }
+    .landing .choose__block .section__title{
+        font-size: 38px;
+        margin-bottom: 0px;
+    }
+    .landing .choose__block{
+        gap: 22px;
+        padding-left: 61px;
+        padding-right: 61px;
+    }
+    .landing .apartment__btn{
+        width: calc(100%/5);
+    }
+   .landing .area__actions{
+       flex-direction: row;
+   }
+    .apartment__list--parking .apartment__btn{
+        width: 100%;
+    }
+    .landing .plans .section__title{
+        margin-bottom: 30px;
+    }
+    .landing .plans{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .palns__room-list{
+        left: 26px;
+    }
+    .landing .plans__right{
+        padding-top: 16px;
+    }
+    .landing .plans__right p{
+        font-size: 22px;
+    }
+    .landing .info{
+        padding-top: 0;
+        background: #fff;
+    }
+    .landing .info__left p{
+        max-width: 472px;
+        margin: 0 auto;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .landing .info__left:after, .landing .info__left:before{
+        width: 80px;
+        height: 54px;
+        background-size: cover;
+    }
+    .gallery__tabs{
+        gap: 0  ;
+    }
+    .tab__item:first-child{
+        order: 1;
+    }
+    .tab__item:nth-child(2){
+        order: 2;
+    }
+    .tab__item:nth-child(3){
+        order: 6;
+    }
+    .tab__item:nth-child(4){
+        order: 5;
+    }
+    .tab__item:nth-child(5){
+        order: 3;
+    }
+    .tab__item:nth-child(6){
+        order: 4;
+    }
+    .tab__item:nth-child(7){
+        order: 7;
+    }
+    .landing .gallery{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .life{
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+    .footer__menu .menu__link{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    nav{
+        flex-direction: column-reverse;
+    }
+    header{
+        margin: 0;
+        border-radius: 0;
+    }
+    .nav__contact{
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .nav__tel{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .project{
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .gallery .gallery-item img {
+        height: 328px;
+    }
+}
+@media  screen  and (max-width: 600px){
+    .tab__item{
+        font-size: 11px;
+        line-height: 13px;
+        padding: 0;
+    }
+    .gallery__tabs{
+        gap: 3px;
+    }
+    .info:before{
+        width: 100%;
+    }
+    .info__right{
+        width: 100%;
+    }
+    .banner{
+        padding: 20px 0 193px ;
+    }
+    nav{
+        padding-right: 15px ;
+    }
+    .nav__tel{
+        display: none;
+    }
+
+
+
+    .banner h1{
+        font-size: 28px;
+        line-height: 39px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        padding: 0 20px;
+
+    }
+    .banner p{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .banner .btn-yellow{
+        width: calc(100% - 40px);
+        margin: 0 auto 60px;
+        font-size: 15px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .about__top{
+        border-radius: 18px;
+        padding: 40px 20px 0;
+        background: transparent;
+    }
+
+    .section__title{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .about a{
+            width: 100%;
+            display: block;
+            font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .about p:last-child{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+
+    .apartments__banner img{
+       height: 328px;
+        object-fit: cover;
+        border-radius: 18px;
+    }
+    .choose__block .section__title{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .features__item h4{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .features__item{
+        padding-top: 0;
+    }
+    .choose__block .section__title{
+        display: none;
+    }
+    .choose__left .section__title{
+        display: flex;
+        padding: 0;
+        font-size: 18px;
+        text-align: left;
+        order: 2;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .choose__block{
+        margin-top: 40px;
+        padding-top: 20px;
+        background: #EBEFF2;
+        border-radius: 18px;
+        padding-bottom: 24px;
+    }
+    .area__actions .btn-green{
+        width: 119px;
+        font-size: 14px;
+        padding: 14px 16px;
+        box-sizing: border-box;
+    }
+    .area__actions .btn-orange{
+        padding: 14px 16px;
+        box-sizing: border-box;
+        font-size: 14px;
+
+    }
+    .area__actions{
+        flex-direction: row;
+        gap: 14px;
+
+    }
+
+    .choose__apartments{
+        background: transparent;
+    }
+
+    .apartment__img{
+        order: 3;
+    }
+    .apartment{
+        order: 1;
+    }
+    .choose__left{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .apartment__img{
+        margin-top: 0;
+    }
+    .floor {
+        width: 46px;
+    }
+    .choose__apartments{
+        margin-bottom: 0;
+    }
+    .plans__right h4{
+        font-size: 18px;
+        text-align: left;
+        padding: 0!important;
+        margin-bottom: 20px;
+    }
+    .plans__right{
+        padding-top: 0;
+    }
+    .plans__right p, .plans__right ul{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .plans-overlay:after{
+        background: url('../img/plans-right-bg.svg') right bottom;
+        bottom: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+    .section__title, .plans__right h4{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .plans .section__title{
+        margin-bottom: 0;
+    }
+    .plans__right .btn-orange{
+        font-size: 16px;
+    }
+    .info{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .info .section__title{
+        order: 1;
+        margin-bottom: 0;
+    }
+    .info .info__left{
+        order: 3;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .info .info__right{
+        order: 2;
+    }
+    .info__left p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .info__left:after{
+        background: url('../img/comment-1.svg') no-repeat bottom right;
+        transform: none;
+        right: 16px;
+    }
+   .gallery{
+       margin-top: 40px;
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+    .gallery .gallery-item img{
+        height: 489px;
+    }
+    .term-right{
+        width: 162px;
+        right: 0;
+    }
+    .term-right h2{
+        font-size: 10px;
+        line-height: 9px;
+        margin-bottom: 10px;
+    }
+    .term-info h4{
+        font-size:10px;
+        line-height: 8px;
+    }
+    .gallery .slick-next, .gallery .slick-prev{
+        width: 32px;
+        height: 32px;
+    }
+    .gallery .slick-next{
+        right: -16px;
+    }
+    .gallery .slick-prev{
+        left: -16px;
+    }
+    .footer__top{
+        gap: 30px;
+    }
+    .qr__left{
+        display: none;
+    }
+    .footer__left .btn-orange{
+        margin-bottom: 0;
+    }
+    .footer__menu{
+        gap: 20px;
+    }
+    .footer__social a:after{
+        display: none;
+    }
+    .footer__social{
+        gap: 5px;
+        right: 0;
+    }
+    .qr{
+        flex-direction: column;
+    }
+    .banner p, .banner h1{
+        max-width: 250px;
+    }
+    footer{
+        padding: 20px;
+    }
+    header:before{
+        display: none;
+    }
+    .point{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .point:before{
+        width: 50px;
+        height: 50px;
+    }
+    .point__right {
+        right: 11%;
+        top: 45%;
+    }
+    .point__left {
+        right: 27%;
+        top: 32%;
+    }
+    #map{
+        height: 328px!important;
+    }
+    .ClickButtonsBig {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .ClickButtonsBig button {
+        height: 33.04px;
+        width: 90%;
+        display: flex;
+        justify-content: left;
+        font-size: 16px;
+        padding-left: 10px;
+        border-radius: 4px;
+        margin: auto;
+        margin-bottom: 4px;
+        box-shadow: 0px 2.76px 5.52px 0px #ffffff05, 0px 0px 13.79px 0px #ffffff0f;
+    }
+    .landing .banner h1{
+        font-size: 28px;
+        line-height: 34px;
+        max-width: 100%;
+    }
+    .landing #slider-price,  .landing #slider-byn,
+    .landing #slider-area,  .landing #slider-level {
+        width: calc(100% - 32px);
+    }
+    .landing header{
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .landing .banner {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 230px;
+    }
+    .landing nav{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    .landing .section__title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .landing .about p{
+        font-size: 16px;
+    }
+    .landing .about__top {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .landing .about__bottom{
+        padding-left: 16px;
+        padding-right: 16px;
+        overflow: hidden;
+        margin-bottom: 64px;
+
+    }
+    .landing .about__bottom img{
+        height: 328px;
+        object-position: 50%;
+        border-radius: 18px;
+    }
+    .landing .features{
+        padding-top: 0;
+    }
+    .landing .features__item{
+        max-width: 156px;
+    }
+    .landing .apartments__banner{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .landing .choose__apartments .slick-next, .landing .choose__apartments .slick-prev{
+        width: 32px;
+        height: 32px;
+    }
+    .landing .choose__apartments .slick-prev{
+        left:   4px;
+    }
+    .landing .choose__apartments .slick-next{
+        right: 4px;
+    }
+    .landing .choose__block{
+        width: calc(100% - 12px);
+        margin: 0 auto;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 22px;
+    }
+    .landing .choose__left{
+        flex-direction: column;
+    }
+    .landing .apartment{
+        order: 2    ;
+    }
+    .landing .choose__block .section__title{
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 22px;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }
+    .landing nav .btn-orange{
+        display: none;
+    }
+    .landing .apartment__btn {
+        width: calc(100% / 3);
+    }
+    .landing .apartment__img img{
+        height: 328px;
+        object-fit: cover;
+        border-radius: 18px;
+    }
+    .apartment__list--parking .apartment__btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .palns__room-list{
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        left: 0;
+        margin-bottom: 10px;
+    }
+    .landing .plans__left{
+        flex-wrap: wrap;
+    }
+    .palns__room-list h2{
+        width: 100%;
+        display: none;
+    }
+    .landing .plans__left >h2{
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        color: #161616;
+        font-weight: 600;
+    }
+    .landing .plans__right p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .landing .info:before{
+        display: none;
+    }
+    .landing .info__left p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .landing .info__left:before{
+        top: -30px
+    }
+    .landing .info__left:after{
+        bottom: -53px;
+    }
+    .gallery__tabs{
+        justify-content: flex-start;
+    }
+    .life {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .landing .gallery{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .tab__item{
+        font-size: 14px ;
+        padding: 14px 16px;
+    }
+    .tab__item:first-child{
+        order: 1;
+    }
+    .tab__item:nth-child(2){
+        order: 2;
+    }
+    .tab__item:nth-child(3){
+        order: 3;
+
+    }
+    .tab__item:nth-child(4){
+        order: 4;
+
+    }
+    .tab__item:nth-child(5){
+        order: 5;
+
+    }
+    .tab__item:nth-child(6){
+        order: 6;
+
+    }
+    .tab__item:nth-child(7){
+        order: 7;
+
+    }
+    .landing     .gallery .slick-prev {
+        left: -12px;
+    }
+    .landing     .gallery .slick-next {
+        right: -12px;
+    }
+    header, .choose__apartments, .info, .map {
+        margin-left:0;
+        margin-right: 0;
+    }
+    header{
+        height: 640px;
+    }
+    .choose__block, .about,  .info, .gallery, .life, .plans-overlay {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .plans{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about__top{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about p:last-child{
+        padding-right: 30px;
+    }
+    .features{
+        padding-top: 40px;
+    }
+    .info .info__left{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .gallery .gallery-item img{
+        height: 328px;
+    }
+    footer .Country_input{
+        grid-template-columns: 42px 40px auto;
+    }
+    footer .Country_input__phone{
+        font-size: 14px;
+    }
+    footer .inputGrey input{
+        font-size: 14px;
+        width: 75% !important;
+    }
+    footer .form-control .btn-green{
+        width: 193px;
+    }
+    header{
+        background-position: center;
+    }
+}
+@media  screen  and (max-width: 360px){
+    .point__right {
+        right: 13%;
+        top: 45%;
+    }
+    .point__left {
+        right: 42%;
+        top: 34%;
+    }
+.about__bottom img{
+    height: 328px;
+    object-fit: cover;
+    object-position: 88% 100%;
+}
+header{
+    background: url('../img/header-mob.png');
+}
+}

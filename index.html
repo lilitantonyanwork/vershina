@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result estate</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header id="header">
+    <nav class="nav df ">
+        <h1>Ваша новая квартира в <span>Вершине</span>  </h1>
+        <div class="menu__block dn">
+            <div class="menu__logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="menu__content">
+                <div class="menu__left">
+                    <div class="nav__menu ">
+                        <ul class="menu df">
+                            <li class="menu__item">
+                                <a href="#project" class="menu__link">ПРОЕКТ ЖК ВЕРШИНА</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#about" class="menu__link">О ЗАСТРОЙЩИКЕ</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#features" class="menu__link">Преимущества</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#terms" class="menu__link">Условия покупки</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contact" class="menu__link">Месторасположение</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#gallery" class="menu__link">Галерея</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#footer" class="menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="header__social df a-center">
+                            <a href="https://result.estate/"><img src="img/footer-social1.svg" alt=""></a>
+                            <a href="https://www.instagram.com/result.estate.brest/?igsh=bDBmZzQzeHhobXNw"><img src="img/footer-social2.svg" alt=""></a>
+                            <a href="https://t.me/resultestatebot"><img src="img/footer-social3.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__right">
+                    <img src="img/menu-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="nav__contact df">
+            <a class="nav__tel" href="tel:+375 (29) 188-11-99">+375 (29) 188-55-99</a>
+            <button class="btn btn-yellow">Оставить заявку</button>
+            <div class="mobile__menu--open ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56" fill="none">
+                    <path d="M7.73438 28H49.7344" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.73438 14H49.7344" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.7344 42L49.7344 42" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="mobile__menu--close dn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px" height="20px"><path fill="#ffffff" d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"/></svg>
+            </div>
+        </div>
+
+    </nav>
+    <div class="banner">
+       <div class="logo df">
+           <a href=""><img src="img/logo.svg" alt="">
+           </a>
+           <h2>Эксклюзивный партнёр ЖК Вершина</h2>
+       </div>
+        <button class="btn  btn-choose">
+            <img src="img/choose.svg" alt="">
+            Выбарть
+            квартиру</button>
+    </div>
+</header>
+<main>
+   <div class="project df" id="project">
+       <h1 class="section__title">ПРОЕКТ ЖК ВЕРШИНА</h1>
+       <div class="project-left">
+           <img src="img/project.png" alt="">
+       </div>
+       <div class="project-right">
+           <p>Жилой комплекс "ВЕРШИНА"  располагается в микрарайоне Сухарево, границы улиц Рафиева, Есенина и Маршала Лосика.
+               <br><br>
+               Проект будет включать 8 монолитных домов общей площадью 140 000 м² с квартирами от 40 до 100 м². На территории комплекса планируется детский сад, школа, торговый центр, административные помещения и паркинг.
+               <br><br>
+               Архитектура всех домов будет выполнена в едином современном европейском стиле, что сделает проект уникальным и выделяющимся среди городской застройки.
+               <br><br>
+               «Вершина» — это не просто жилые дома, а результат работы команды профессионалов, которая реализует амбициозные планы и уникальное видение проекта. Мы создаем не просто квартиры, а целый образ жизни. Добро пожаловать на вершину комфорта и современности!</p>
+           <img src="img/project-right.png" alt="">
+       </div>
+   </div>
+    <div class="about" id="about">
+        <div class="about__content">
+
+        <div class="about__text df">
+            <div>
+                <h1 class="section__title">О ЗАСТРОЙЩИКЕ</h1>
+                <p>
+                    Группа компаний Строминвест имеет богатый опыт в сфере недвижимости, успешно реализовав более 50 проектов и построив более 900 000 м² объектов. Их опыт и профессионализм гарантируют высокое качество строительства и надёжность в реализации проектов.
+                </p>
+            </div>
+            <div class="about__invest">
+                <img src="img/invest.svg" alt="">
+
+            </div>
+
+
+        </div>
+            <h4>Реализованные проекты </h4>
+        <div class="about-slider">
+            <div class="about-item">
+                <img src="img/about1.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about2.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about3.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about4.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about5.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about6.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+            <div class="about-item">
+                <img src="img/about7.png" alt="">
+                <div class="slider-desc">
+                    <p>Жилой комплекс «Комфорт Парк»</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="features" id="features">
+        <h1 class="section__title">Преимущества</h1>
+        <div class="features__list">
+            <div class="features__item">
+                <div class="features__content">
+                <div class="features__left">
+                    <img src="img/features1.png" alt="">
+                </div>
+                <div class="features__right">
+                   <img src="img/f-icon.svg" class="features__right-icon">
+                    <h4>8 монолитных домов</h4>
+                    <p>Монолитные дома в ЖК «Вершина» отличаются высокой прочностью и долговечностью. Они построены из железобетона, что делает их устойчивыми к различным погодным условиям и механическим воздействиям. Кроме того, такие дома обладают хорошей звукоизоляцией и теплоизоляцией, что создаёт комфортные условия для проживания.</p>
+                </div>
+                </div>
+            </div>
+            <div class="features__item">
+                <div class="features__content">
+                <div class="features__left">
+                    <img src="img/features2.png" alt="">
+                </div>
+                <div class="features__right">
+                    <img src="img/f-icon.svg" class="features__right-icon">
+                    <h4>Готовые квартиры 40-110м2</h4>
+                    <p>В ЖК "Вершина" вы можете выбрать квартиру со свободной планировкой. Это значит, что вы сможете самостоятельно определить расположение комнат и зон в своей квартире. Свободная планировка предоставляет больше возможностей для создания уникального интерьера и организации пространства под свои нужды.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="features__item">
+                <div class="features__content">
+                <div class="features__left">
+                    <img src="img/features3.png" alt="">
+                </div>
+                <div class="features__right">
+                    <img src="img/f-icon2.svg" class="features__right-icon">
+                    <h4>Паркинг на 300 машиномест</h4>
+                    <p>В ЖК "Вершина" предусмотрены двухуровневые паркинги и плоскостные стоянки для автомобилей. Паркинги оборудованы системами видеонаблюдения и охраны, что обеспечивает дополнительную безопасность вашего транспортного средства.</p>
+                   </div>
+                </div>
+            </div>
+            <div class="features__item">
+                <div class="features__content">
+                <div class="features__left">
+                    <img src="img/features4.png" alt="">
+                </div>
+                <div class="features__right">
+                    <img src="img/f-icon3.svg" class="features__right-icon">
+                    <h4>Система видеонаблюдения по всему комплексу</h4>
+              <p>Установлена система видеонаблюдения по всему комплексу. Это обеспечивает безопасность жителей и их имущества, а также помогает контролировать доступ на территорию.</p>
+                </div>
+                </div>
+            </div>
+            <div class="features__item">
+                <div class="features__content">
+                <div class="features__left">
+                    <img src="img/features5.png" alt="">
+                </div>
+                <div class="features__right">
+                    <img src="img/f-icon4.svg" class="features__right-icon">
+                    <h4>IP видеодомофоны</h4>
+                    <p>
+                        TI-4300 - это вызывная панель с функциями считывания Mifare, распознавания отпечатков пальцев и лиц, обеспечивающая многоуровневую безопасность. Она позволяет принимать видеовызовы на различные устройства, включая смартфоны, ПК и SIP телефоны, а также интегрируется с умными домашними системами для контроля безопасности
+                    </p>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="line">
+            <div class="line-active"></div>
+        </div>
+    </div>
+    <div class="terms" id="terms">
+        <div class="terms__content">
+            <h1 class="section__title">Условия покупки</h1>
+            <div class="terms__list">
+                <div class="terms__item">
+                    <div class="term-left">
+                        <img src="img/term1.png" alt="">
+                    </div>
+                    <div class="term-right">
+                      <h2>Рассрочка от застройщика</h2>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Срок рассрочки </h4>
+                            <p>первый взнос от 50%</p>
+                        </div>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Условия</h4>
+                            <p>до 4 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms__item">
+                    <div class="term-left">
+                        <img src="img/term2.png" alt="">
+                    </div>
+                    <div class="term-right">
+                        <h2>Кредит от Беларусбанк</h2>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Условия </h4>
+                            <p>Смотрят совокупный доход,          до 150 000 — залог либо поручитель, свыше — залог и поручители</p>
+                        </div>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Срок кредитования</h4>
+                            <p>20 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms__item">
+                    <div class="term-left">
+                        <img src="img/term3.png" alt="">
+                    </div>
+                    <div class="term-right">
+                        <h2>Кредит от Белинвестбанк</h2>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Размер кредита </h4>
+                            <p>Исходя из кредитоспособности, но не более 90% стоимости финансируемой недвижимости. До 100 000 белорусских рублей — залог, свыше — залог и поручители.</p>
+                         </div>
+                        <div class="term-info">
+                            <h4><svg xmlns="http://www.w3.org/2000/svg" width="30" height="1" viewBox="0 0 30 1" fill="none">
+                                <line y1="0.5" x2="30" y2="0.5" stroke="#838486"/>
+                            </svg>Срок кредитования</h4>
+                            <p>* Досрочное погашение без штрафных санкций (в том числе в течение льготного периода).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+        <h1 class="section__title">Галерея</h1>
+        <ul class="df gallery__tabs f-wrap">
+            <li class="tab__item tab__item-selected">Архитектура</li>
+            <li class="tab__item ">Подъезды</li>
+            <li class="tab__item ">Детские площадки</li>
+            <li class="tab__item ">Благоустройство</li>
+        </ul>
+        <div class="line">
+            <div class="line-active"></div>
+        </div>
+        <div class="gallery-list" id="tab-1">
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+
+        </div>
+        <div class="gallery-list dn" id="tab-2">
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+
+        </div>
+        <div class="gallery-list dn" id="tab-3">
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+
+        </div>
+        <div class="gallery-list dn" id="tab-4">
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery.png" alt="gallery">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="map" id="contact">
+        <h1 class="section__title">Месторасположение</h1>
+
+        <div id="map" style="width: 100%; height: 400px"></div>
+
+        <h1 class="section__title">Контакты</h1>
+    </div>
+
+</main>
+<footer id="footer">
+    <div class="footer__title">
+        <h1 class="section__title">Отдел продаж</h1>
+        <div class="line"></div>
+    </div>
+    <div class="footer__top df">
+        <div class="footer__left">
+            <p><span>Режим работы:</span>
+                Понедельник - Пятница с 9:00 до 18:00</p>
+            <p><span>Адрес:</span>
+                г. Минск, просп. Дзержинского 9, пом.1031</p>
+            <p><span>Телефон для связи:</span>
+                <a href="tel:+375 (29) 188-55-99">+375 (29) 188-55-99</a></p>
+
+            <p>ООО "Результативная недвижимость" УНП 193703497. <br>Лицензия на оказание риэлтерской деятельности выдана Минюстом от 26.09.2023г. No02240/470 Номер лицензии в ЕРЛ: 48230000078999</p>
+        </div>
+        <div class="footer__midd">
+            <h4>Закажите бесплатную консультацию</h4>
+            <form action="">
+               <div class="form-control">
+                   <input type="text" placeholder="Ваше имя*">
+               </div>
+                <div class="form-control">
+                    <input type="tel" placeholder="Ваш номер телефона*">
+                </div>
+                <p>обязательны для заполнения*</p>
+                <button class="btn btn-yellow">Перезвоните мне</button>
+            </form>
+        </div>
+        <div class="footer__right">
+            <ul class="footer__menu df">
+                <li class="menu__item">
+                    <a href="#header" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#about" class="menu__link">Проект ЖК Вершина</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#features" class="menu__link">О застройщике</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#room" class="menu__link">Преимущества</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#plans" class="menu__link">Условия покупки</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#info" class="menu__link">Месторасположение</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#gallery" class="menu__link">Галерея</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contact" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="footer__social df a-center">
+                <a href="https://result.estate/"><img src="img/footer-social1.svg" alt=""></a>
+                <a href="https://www.instagram.com/result.estate.brest/?igsh=bDBmZzQzeHhobXNw"><img src="img/footer-social2.svg" alt=""></a>
+                <a href="https://t.me/resultestatebot"><img src="img/footer-social3.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
