@@ -112,7 +112,8 @@ $(function (){
 
     $('.mobile__menu--open ').on('click',function (){
         $('body').toggleClass('no-scroll');
-        $('.menu__block').toggle()
+        $('.menu__block').toggle();
+        $('nav').toggleClass('opened-menu');
     })
     $( "#slider-area" ).slider({
         range: true,

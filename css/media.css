@@ -820,10 +820,12 @@
     nav{
         padding-right: 15px ;
     }
-    .nav__tel{
-        display: none;
+    .nav__contact{
+        justify-content: space-between;
     }
-
+    nav.opened-menu .nav__contact{
+        justify-content: flex-end;
+    }
 
 
     .banner h1{
@@ -1036,10 +1038,10 @@
         height: 32px;
     }
     .gallery .slick-next{
-        right: -16px;
+        right: 0;
     }
     .gallery .slick-prev{
-        left: -16px;
+        left: 0;
     }
     .footer__top{
         gap: 30px;
@@ -1295,9 +1297,7 @@
         margin-left:0;
         margin-right: 0;
     }
-    header{
-        height: 640px;
-    }
+
     .choose__block, .about,  .info, .gallery, .life, .plans-overlay {
         padding-left: 16px;
         padding-right: 16px;
@@ -1478,7 +1478,7 @@
         padding-bottom: 70px;
     }
     .terms .slick-next, .terms .slick-prev {
-        bottom: -83px;
+        bottom: -60px;
     }
     .form-control input{
         width: 100%;
@@ -1502,7 +1502,45 @@
         left: 35px;
     }
     nav .btn-yellow{
-        display: none;
+        position: absolute;
+        bottom: 30%;
+        height: 50px;
+        font-size: 15px;
+        line-height: 20px;
+        width: 172px;
+        right: 24px;
+    }
+    .menu__block{
+        padding-left: 26px;
+    }
+    .header__social img{
+        width: 18px;
+        height: 18px;
+    }
+    .header__social{
+        gap: 11px;
+    }
+    nav.opened-menu .btn-yellow{
+        right: auto;
+        left:26px;
+        bottom: 40%;
+    }
+    .menu__right img{
+        padding-top: 140px;
+    }
+    .slick-next, .slick-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .slick-prev:before, .slick-next:before{
+        background-size: 6px;
+        background-position: center;
+    }
+    .features{
+        padding-bottom: 0;
+    }
+    .slick-next, .slick-prev{
+        bottom: -60px;
     }
     header .menu__item{
         font-size: 14px;
@@ -1527,9 +1565,7 @@
     }
     .menu__right{
         width: 144px;
-        position: absolute;
-        right: 30px;
-        bottom: -150px;
+
     }
 }
 @media  screen  and (max-width: 360px){
@@ -1547,7 +1583,5 @@
     object-fit: cover;
     object-position: 88% 100%;
 }
-header{
-    background: url('../img/header-mob.png');
-}
+
 }
