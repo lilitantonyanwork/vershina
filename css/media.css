@@ -1141,20 +1141,7 @@
         object-fit: cover;
         border-radius: 18px;
     }
-    .apartment__list--parking .apartment__btn{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .palns__room-list{
-        position: relative;
-        flex-direction: row;
-        width: 100%;
-        left: 0;
-        margin-bottom: 10px;
-    }
-    .landing .plans__left{
-        flex-wrap: wrap;
-    }
+
     .palns__room-list h2{
         width: 100%;
         display: none;
@@ -1280,8 +1267,201 @@
     header{
         background-position: center;
     }
+    .project{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 40px;
+
+    }
+    .project-left{
+        max-width: 100%;
+    }
+    .project-right{
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .project-right p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-right: 10px;
+
+    }
+    .about__invest{
+        position: relative;
+        left: auto;
+        right: auto;
+    }
+    .about__text{
+        gap: 19px;
+    }
+    .about__content{
+        padding-top: 10px;
+        padding-left: 24px;
+    }
+    .about{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about .section__title{
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    .about p:last-child{
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .about h4{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .about-item{
+        height: 223px;
+        width: 231px;
+
+    }
+    .about .about-item p{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .about-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .slider-desc{
+        height: 39px;
+        padding: 7px;
+        border-radius: 7px;
+    }
+    .features{
+        padding-top: 50px;
+        margin-top: 0;
+    }
+    .features__left{
+        max-width: 150px;
+        height: 268px;
+    }
+    .features__left img{
+        object-fit: cover;
+        height: 100%;
+    }
+    .features__item h4{
+        margin-top: 34px;
+    }
+    .features__right p{
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .features__item{
+        height: 268px;
+    }
+    .features__right img{
+        width: 13px;
+    }
+    .line{
+        width: calc(100% - 150px);
+    }
+    .line-active{
+        width: 20%  ;
+    }
+    .terms{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .terms__content{
+        padding-left: 24px;
+        padding-right: 25px;
+    }
+    .terms__item{
+        margin-right: 0;
+    }
+    .term-left{
+        width: 50%;
+        height: 100%;
+    }
+    .term-left img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .term-right {
+        width: 50%;
+        right: 10px;
+        border-radius: 5px  ;
+    }
+    .terms__item{
+        height: 204px;
+    }
+    .term-info p{
+        font-size: 10px ;
+        line-height: 8px;
+        padding-left: 18px;
+    }
+
+    .term-info h4 svg{
+        width: 10px;
+    }
+    .terms__content{
+        padding-bottom: 70px;
+    }
+    .terms .slick-next, .terms .slick-prev {
+        bottom: -83px;
+    }
+    .form-control input{
+        width: 100%;
+    }
+    .footer__midd .btn-yellow{
+        width: 100%;
+        font-size: 16px;
+        height: 40px;
+    }
+    footer{
+        background: url('../img/footer-mob.png') no-repeat;
+        background-size: cover;
+    }
+    .project .section__title{
+        margin-bottom: 0;
+    }
+    .banner .btn-choose{
+        right: 35px;
+    }
+    .banner .logo{
+        left: 35px;
+    }
+    nav .btn-yellow{
+        display: none;
+    }
+    header .menu__item{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .menu__left{
+        padding-top: 24px;
+        padding-left: 0;
+    }
+    .menu__logo{
+        width: 64px;
+    }
+    .mobile__menu--open svg{
+        width: 48px;
+        height: 48px;
+    }
+    nav{
+        padding-top: 24px;
+    }
+    .menu__block{
+        padding-top: 24px;
+    }
+    .menu__right{
+        width: 144px;
+        position: absolute;
+        right: 30px;
+        bottom: -150px;
+    }
 }
 @media  screen  and (max-width: 360px){
+
     .point__right {
         right: 13%;
         top: 45%;
