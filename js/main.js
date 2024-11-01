@@ -423,11 +423,11 @@ function setMapLayer(){
 function init() {
 
     var myMap = new ymaps.Map("map", {
-        center: [52.081873, 23.761284],
+        center: [53.889582, 27.523554],
         zoom: 14,
         nightModeEnabled: true,
         theme: 'dark',
-        iconImageHref: 'img/marker.png',
+        iconImageHref: 'img/marker.svg',
     });
     myMap.controls.remove('searchControl'); // удаляем поиск
     myMap.controls.remove('trafficControl'); // удаляем контроль трафика
@@ -441,7 +441,7 @@ function init() {
     // https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/option.presetStorage-docpage/
 
     // Метка без содержимого с точкой в центре
-    var placemark1 = new ymaps.Placemark([52.081873, 23.761284], {
+    var placemark1 = new ymaps.Placemark([53.889582, 27.523554], {
 
     }, {
         'preset': 'islands#nightDotIcon',
